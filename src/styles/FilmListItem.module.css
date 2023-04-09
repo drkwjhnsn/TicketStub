@@ -1,0 +1,45 @@
+.bookmark,
+.watched {
+  transition-duration: 0.5s;
+  height: 40px;
+  width: 40px;
+  fill: gray;
+  margin-bottom: -5px;
+}
+
+.bookmark {
+  cursor: pointer;
+  transition-property: fill;
+  transition-timing-function: ease-out;
+}
+
+.bookmarked {
+  fill: goldenrod;
+}
+
+.watched {
+  transition-property: opacity;
+  transition-timing-function: ease-in;
+  opacity: 0;
+}
+
+.hasWatched {
+  fill: green;
+}
+
+.enabled {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.imageIcon {
+  max-height: 120px;
+  padding: 8px;
+  fill: #222222;
+}
+
+.listDetails * {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

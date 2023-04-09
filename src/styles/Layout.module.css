@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.logo {
+  fill: #8f2f38;
+}
+
+.library {
+  fill: lightgray;
+  display: flex;
+  align-items: flex-end;
+}
