@@ -17,7 +17,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
         <link rel='icon' href='/favicon.png' />
       </Head>
       <main className={styles.main}>
-        <Container maxW={768} minW={375} paddingTop={[1, 3]}>
+        <Container maxW={768} minW={375} paddingTop={[1, 3]} paddingBottom={3}>
           <Flex justifyContent={'space-between'} alignContent={'flex-end'}>
             <Link href={'/'}>
               <Flex>

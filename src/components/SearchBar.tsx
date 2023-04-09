@@ -50,7 +50,6 @@ const SearchBar: FC = () => {
       cacheOptions
       defaultOptions
       loadOptions={searchFilms}
-      autoFocus
       onInputChange={handleInputChange}
       inputValue={searchString}
       onChange={handleSelect as (newValue: any, actionMeta: ActionMeta<any>) => void}
